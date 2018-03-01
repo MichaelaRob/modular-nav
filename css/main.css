@@ -24,18 +24,42 @@ body {
 
 h1 {
   color: 000;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  text-align: center;
 }
 
 li {
   list-style-type: none;
+  display: inline-block;
 }
 
 nav a {
   color: #0074d9;
   text-decoration: none;
+  padding: .6rem;
+  text-align: center;
 }
 
 nav a:hover {
   background-color: #0074d9;
   color: #e2e2e2;
+}
+
+.grid {
+  background-color: #e2e2e2;
+}
+
+@media only screen and (min-width: 38em) {
+
+  h1 {
+    text-align: left;
+  }
+
+  ul {
+    text-align: right;
+  }
 }
