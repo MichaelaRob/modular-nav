@@ -6,6 +6,7 @@
 
 html {
   box-sizing: border-box;
+  font-family: sans-serif;
 
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -25,8 +26,13 @@ h1 {
   color: 000;
 }
 
+li {
+  list-style-type: none;
+}
+
 nav a {
   color: #0074d9;
+  text-decoration: none;
 }
 
 nav a:hover {
